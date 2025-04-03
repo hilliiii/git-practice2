@@ -1,0 +1,29 @@
+
+/* 優先順位 */
+/* 1.!important 2.インラインスタイル 3.IDセレクタ 4.クラスセレクタ 5.タグセレクタ */
+
+/* h2全体を赤にする */
+h2 {
+    color: red;
+    font-size: 30px;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+}
+
+/* h2全体に対する設定よりこっちが優先される */
+.yellow-font {
+    color: yellow;
+    font-size: 10px;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.contents p {
+    font-size: 10px;
+    color: red;
+}
